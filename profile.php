@@ -42,12 +42,7 @@
 								</div>
 								<hr>
 								<div id="cartmenu">
-								<!--<div class="row">
-									<div class="col-md-3">S. No.</div>
-									<div class="col-md-3">Product Image</div>
-									<div class="col-md-3">Product Name</div>
-									<div class="col-md-3">Price in $</div>
-								</div>-->
+
 								</div>
 							</div>
 							<div class="panel-body"></div>
@@ -58,51 +53,26 @@
 				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>Hello, <?php echo $_SESSION['uname']; ?></a>
 				<ul class="dropdown-menu">
 					<li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart-large"></span> Cart</a></li>
-					<li><a href="#">Change Password</a></li>
+					<li><a href="changePassword.php">Change Password</a></li>
 					<li><a href="logout.php">Logout</a></li>
 				</ul>
-
 				</li>
-
-				</ul>
-
+ 			</ul>
 		</div>
 	</div>
 	<br><br><br><br><br><br>
-	<!-- Slider Begins -->
-
 	 <div class="one-time">
 	    <div><img src="assets/images/car1.jpg"></div>
 	    <div><img src="assets/images/car2.jpg"></div>
 	    <div><img src="assets/images/car3.jpg"></div>
   	</div>
-
-	<!-- Slider ends -->
-
 	<br>
-
-
-
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-2">
 			<div id="get_cat"></div>
-				<!--<div class="nav nav-pills nav-stacked">
-					<li class="active"><a href="#"><h4>Categories</h4></a></li>
-					<li><a href="#">Categories</a></li>
-					<li><a href="#">Categories</a></li>
-					<li><a href="#">Categories</a></li>
-					<li><a href="#">Categories</a></li>
-				</div>-->
 				<div id="get_brand"></div>
-				<!--<div class="nav nav-pills nav-stacked">
-					<li class="active"><a href="#"><h4>Brands</h4></a></li>
-					<li><a href="#">Categories</a></li>
-					<li><a href="#">Categories</a></li>
-					<li><a href="#">Categories</a></li>
-					<li><a href="#">Categories</a></li>
-				</div>-->
 			</div>
 			<div class="col-md-8">
 				<div class="row">
@@ -118,15 +88,6 @@
 					</div>
 					<div class="panel-body">
 					<div id="get_product"></div>
-						<!--<div class="col-md-4">
-							<div class="panel panel-info">
-								<div class="panel-heading">Samsung Galaxy</div>
-								<div class="panel-body"><img src="assets/prod_images/samsung_galaxy.jpg"></div>
-								<div class="panel-heading">$500.00
-								<button class="btn btn-danger btn-xs" style="float:right;">Add to Cart</button>
-								</div>
-							</div>
-						</div>-->
 					</div>
 					<div class="panel-footer">&copy; 2017</div>
 				</div>
@@ -137,14 +98,9 @@
 			<div class="col-md-12">
 				<center>
 					<ul class='pagination' id='pageno'>
-
 					</ul>
 				</center>
 			</div>
-
-
-			<!-- Modal -->
-
 				<div class="modal fade" id="prod_detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
@@ -157,18 +113,12 @@
 				      </div>
 				      <div class="modal-footer">
 				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
 				      </div>
 				    </div>
 				  </div>
 				</div>
-
-			 <!-- Modal ends-->
 		</div>
 	</div>
-
-
-
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
