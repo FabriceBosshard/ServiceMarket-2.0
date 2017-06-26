@@ -17,9 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `amaclone`
+-- Database: `servicemarket`
 --
-CREATE DATABASE IF NOT EXISTS `amaclone` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+DROP DATABASE IF EXISTS `servicemarket`;
+CREATE DATABASE IF NOT EXISTS `servicemarket` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `amaclone`;
 
 -- --------------------------------------------------------

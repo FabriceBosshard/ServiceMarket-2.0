@@ -10,10 +10,10 @@
 	<div class="navbar navbar-default navbar-fixed-top" id="topnav">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand">Amaclone</a>
+				<a href="index.php" class="navbar-brand">ServiceMarket 2.0</a>
 			</div>
 
-			
+
 		</div>
 	</div>
 	<p><br><br></p>

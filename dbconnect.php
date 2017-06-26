@@ -3,7 +3,7 @@
 	$host='localhost';
 	$username='root';
 	$pass='';
-	$db='amaclone';
+	$db='servicemarket';
 	$port = 3306;
 
 	$conn=mysqli_connect($host,$username,$pass,$db, $port);
