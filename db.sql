@@ -148,22 +148,22 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `product_cat`, `product_brand`, `product_title`, `product_price`, `product_desc`, `product_image`, `product_keywords`) VALUES
-(1, '1', '2', 'Samsung Duos 2', 5000, 'Samsung Duos 2 mobile phone', 'samsungduos.JPG', 'samsung mobile electronics'),
-(2, '1', '3', 'iPhone 5s', 25000, 'iPhone mobile ', 'iphonemobile.JPG', 'apple iphone mobile electronics'),
-(3, '1', '3', 'iPad', 30000, 'iPad tablet for use', 'iPad.jpg', 'apple ipad tablet'),
-(4, '1', '2', 'Samsung Tab', 10000, 'samsung tablet for home use', 'samsungtab.JPG', 'samsung tablet electronics'),
-(5, '1', '4', 'Sony Vaio Laptop', 25000, 'Vaio Laptop', 'vaio.JPG', 'sony laptop vaio'),
-(6, '1', '5', 'LG Aqua 2', 15000, 'LG aqua mobile phone all featured', 'lgaqua.JPG', 'lg mobile phone aqua'),
-(7, '2', '6', 'Draped Lehenga', 1500, 'Matching Lehenga', 'lehenga.JPG', 'lehenga biba'),
-(8, '2', '6', 'SIlk Saree', 1000, 'Pure Silk Saree', 'saree.JPG', 'biba saree'),
-(9, '3', '7', 'T-Shirt', 700, 'T-Shirt for summer', 'tshirt.JPG', 'flying machine tshirt'),
+(1, '1', '2', 'Samsung Duos 2', 20.85, 'Samsung Duos 2 mobile phone', 'samsungduos.JPG', 'samsung mobile electronics'),
+(2, '1', '3', 'iPhone 5s', 18.50, 'iPhone mobile ', 'iphonemobile.JPG', 'apple iphone mobile electronics'),
+(3, '1', '3', 'iPad', 99.95, 'iPad tablet for use', 'iPad.jpg', 'apple ipad tablet'),
+(4, '1', '2', 'Samsung Tab', 2, 'samsung tablet for home use', 'samsungtab.JPG', 'samsung tablet electronics'),
+(5, '1', '4', 'Sony Vaio Laptop', 3, 'Vaio Laptop', 'vaio.JPG', 'sony laptop vaio'),
+(6, '1', '5', 'LG Aqua 2', 10, 'LG aqua mobile phone all featured', 'lgaqua.JPG', 'lg mobile phone aqua'),
+(7, '2', '6', 'Draped Lehenga', 300, 'Matching Lehenga', 'lehenga.JPG', 'lehenga biba'),
+(8, '2', '6', 'SIlk Saree', 100000, 'Pure Silk Saree', 'saree.JPG', 'biba saree'),
+(9, '3', '7', 'T-Shirt', 300000, 'T-Shirt Limited Premium super rare edition for summer', 'tshirt.JPG', 'flying machine tshirt'),
 (10, '3', '7', 'FM Jeans', 1800, 'Jeans for the ones who do', 'jeans.JPG', 'flying machine jeans'),
 (11, '4', '10', 'Baby Shirt', 500, 'Shirt for the babies', 'babyshirt.JPG', 'kids shirt kidzee'),
 (12, '4', '10', 'Kids Jeans', 800, 'Jeans for kids', 'kidsjeans.JPG', 'kids jeans kidzee'),
 (13, '5', '11', 'Computer Table', 2000, 'Table for computer', 'computertable.JPG', 'computer table ikea '),
-(14, '5', '12', 'Trimmer', 1500, 'Trimmer by Philips', 'philipstrimmer.JPG', 'philips trimmer'),
-(15, '6', '8', 'Football Shoes', 2500, 'Shoes to play football by Nike', 'nikeshoes.JPG', 'nike shoes football'),
-(16, '6', '9', 'Football', 600, 'Football by Adidas', 'adidasfootball.JPG', 'football adidas');
+(14, '5', '12', 'Trimmer', 100, 'Trimmer by Philippe de sanchez', 'philipstrimmer.JPG', 'philips trimmer'),
+(15, '6', '8', 'Football Shoes', 9999999, 'Shoes to play football, very rare, michael jackson wore them, by Nike', 'nikeshoes.JPG', 'nike shoes football'),
+(16, '6', '9', 'Football', 100, 'Football by Adidas', 'adidasfootball.JPG', 'football adidas');
 
 -- --------------------------------------------------------
 
