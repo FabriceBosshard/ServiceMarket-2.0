@@ -32,18 +32,27 @@
 				<form method="post" action="">
 					<div class="row">
 						<div class="col-md-6">
+							<label for="f_name">Email</label>
+							<input type="email" id="email" name="email" class="form-control">
+						</div>
+						<div class="col-md-6">
+							<label for="f_name">Old Password</label>
+							<input type="password" id="old_pw" name="old_pw" class="form-control">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
 							<label for="f_name">New Password</label>
-							<input type="text" id="f_name" name="f_name" class="form-control">
+							<input type="password" id="new_pw" name="new_pw" class="form-control">
 						</div>
 						<div class="col-md-6">
 							<label for="f_name">Confirm Password</label>
-							<input type="text" id="l_name" name="l_name" class="form-control">
+							<input type="password" id="conf_pw" name="conf_pw" class="form-control">
 						</div>
 					</div>
-
-					<br><br>
+					<br></br>
 					<div class="col-md-12">
-						<input type="button" class="btn btn-primary" value="Change Password" name="changePassword" id="changePassword">
+						<input type="button" class="btn btn-primary" value="Change Password" name="changePassword" id="changePassword_bnt">
 					</div>
 
 					</div>

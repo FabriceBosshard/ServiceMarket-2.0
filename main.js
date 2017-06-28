@@ -119,6 +119,19 @@ $(document).ready(function(){
 		})
 	})
 
+	$('#changePassword_bnt').click(function(e){
+		e.preventDefault();
+		$.ajax({
+			url: "customer_PWChange.php",
+			method: "POST",
+			data: $("form").serialize(),
+			success: function(data){
+				$("#err_msg").html(data);
+				$("form").trigger("reset");
+			}
+		})
+	})
+
 	cart_count();
 
 	function cart_count(){

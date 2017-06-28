@@ -1,6 +1,7 @@
-<?php 
+<?php
 	include('dbconnect.php');
 	session_start();
+
 
 	if(isset($_POST['userLogin'])){
 
@@ -16,7 +17,5 @@
 				$_SESSION['uname']=$row['first_name'];
 				echo "true";
 		}
-			
 	}
-
  ?>

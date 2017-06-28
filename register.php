@@ -88,7 +88,7 @@
 		echo "
 			<div class='alert alert-danger'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>Email Address is already available Try Another email address</b>
+				<b>Email Address is already used. Try Another email address</b>
 			</div>
 		";
 		exit();
