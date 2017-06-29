@@ -22,7 +22,7 @@
 		$run_query=mysqli_query($conn,$category_query);
 		echo "<div class='nav nav-pills nav-stacked'>
 					<li class='active'><a href='#'><h4>Brands</h4></a></li>";
-					
+
 		if(mysqli_num_rows($run_query)){
 			while($row=mysqli_fetch_array($run_query)){
 				$bid=$row['brand_id'];
@@ -150,7 +150,7 @@
 			{
 				echo "<div class='alert alert-danger' role='alert'>
   					<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
-  					<strong>Success!</strong> Already added!
+  					<strong>Error!</strong> Already added!
 				</div>";
 			}
 			else

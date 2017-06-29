@@ -190,7 +190,7 @@ CREATE TABLE `user_info` (
   `first_name` varchar(50) NOT NULL,
   `last_name` varchar(50) NOT NULL,
   `email` varchar(300) NOT NULL,
-  `password` varchar(100) NOT NULL,
+  `password` varchar(500) NOT NULL,
   `mobile` varchar(10) NOT NULL,
   `address1` varchar(300) NOT NULL,
   `address2` varchar(300) NOT NULL
@@ -201,11 +201,11 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
-(1, 'Igor', 'Cetkovic', 'hacker@gmail.com', 'c21f969b5f03d33d43e04f8f136e7682', '7631649503', 'yep 16', ''),
-(2, 'Fabrice', 'Bosshard', 'f.bosshard@bosshard.com', 'c21f969b5f03d33d43e04f8f136e7682', '7631649503', 'yaheet 16', ''),
-(3, 'Daniel', 'Peters', 'something@email.com', 'c21f969b5f03d33d43e04f8f136e7682', '7631649503', 'Wiesliacher 16', ''),
-(4, 'Hans', 'Müller', 'whatever@gmail.com', 'c21f969b5f03d33d43e04f8f136e7682', '7631649503', 'ConfortZone 2020', ''),
-(5, 'Katelyn', 'Jenner', 'noonecares@gmail.com', 'c21f969b5f03d33d43e04f8f136e7682', '7631649503', 'HitlersBunker', '');
+(1, 'Igor', 'Cetkovic', 'hacker@gmail.com', '1625cdb75d25d9f699fd2779f44095b6e320767f606f095eb7edab5581e9e3441adbb0d628832f7dc4574a77a382973ce22911b7e4df2a9d2c693826bbd125bc', '7631649503', 'yep 16', ''),
+(2, 'Fabrice', 'Bosshard', 'f.bosshard@bosshard.com', '1625cdb75d25d9f699fd2779f44095b6e320767f606f095eb7edab5581e9e3441adbb0d628832f7dc4574a77a382973ce22911b7e4df2a9d2c693826bbd125bc', '7631649503', 'yaheet 16', ''),
+(3, 'Daniel', 'Peters', 'something@email.com', '1625cdb75d25d9f699fd2779f44095b6e320767f606f095eb7edab5581e9e3441adbb0d628832f7dc4574a77a382973ce22911b7e4df2a9d2c693826bbd125bc', '7631649503', 'Wiesliacher 16', ''),
+(4, 'Hans', 'Müller', 'whatever@gmail.com', '1625cdb75d25d9f699fd2779f44095b6e320767f606f095eb7edab5581e9e3441adbb0d628832f7dc4574a77a382973ce22911b7e4df2a9d2c693826bbd125bc', '7631649503', 'ConfortZone 2020', ''),
+(5, 'Katelyn', 'Jenner', 'noonecares@gmail.com', '1625cdb75d25d9f699fd2779f44095b6e320767f606f095eb7edab5581e9e3441adbb0d628832f7dc4574a77a382973ce22911b7e4df2a9d2c693826bbd125bc', '7631649503', 'HitlersBunker', '');
 
 --
 -- Indexes for dumped tables
