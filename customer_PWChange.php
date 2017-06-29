@@ -2,9 +2,9 @@
 
   include('dbconnect.php');
 
-  $old_pw = md5($_POST['old_pw']);
-  $new_pw = md5($_POST['new_pw']);
-  $conf_pw = md5($_POST['conf_pw']);
+  $old_pw = hash('sha512', $_POST['old_pw']);
+  $new_pw = hash('sha512', $_POST['new_pw']);
+  $conf_pw = hash('sha512', $_POST['conf_pw']);
   $email = mysqli_real_escape_string($conn,$_POST['email']);
 
 
@@ -31,9 +31,10 @@
 		}
   }
 
-    @changePassword();
+    @changePassword($new_pw,$old_pw,$email,$conn);
 
-    function changePassword(){
+
+    function changePassword($new_pw,$old_pw,$email,$conn){
       $sql="UPDATE user_info SET password = '$new_pw' WHERE password = '$old_pw' AND email='$email' LIMIT 1";
       $run_query=mysqli_query($conn,$sql);
       $count = mysqli_num_rows($run_query);
@@ -44,15 +45,22 @@
               Click <b><a href='index.php'>here</a></b> to go to Homepage.
             </div>
         ";
+        closeSession();
       }
       else {
         echo "
             <div class='alert alert-danger alert-dismissible'>
               <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-              Password change failed. Click <b><a href='index.php'>here</a></b> to go back.
+              Password change failed. Either E-Mail or old Password didnt match Click <b><a href='index.php'>here</a></b> to go back.
             </div>
         ";
       }
+    }
+
+    function closeSession(){
+      session_start();
+
+      session_destroy();
     }
 
 
