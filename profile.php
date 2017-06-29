@@ -14,7 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap-3.3.6-dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="shortcut icon" href="assets/images/fav.png">
+	<link rel="icon" type="image/png" href="/assets/images/fav.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/assets/images/fav.png" sizes="32x32">
 </head>
 <body>
 	<div class="navbar navbar-default navbar-fixed-top"  id="topnav">
